@@ -24,3 +24,15 @@ header {
     margin: 99px auto 0 auto;
     border-radius: 3px;
 }
+
+.social-icons {
+    width: 324px;
+    height: 150px;
+
+    background: linear-gradient(90deg, #BC478F 0%, #7B1FA2 100%);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5), 0px 4px 25px rgba(0, 0, 0, 0.12);
+    border-radius: 3px;
+    margin: auto;
+    position: relative;
+    top: -39px;
+}
