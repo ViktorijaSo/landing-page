@@ -105,3 +105,25 @@ header {
     margin-top: 55px;
     margin-bottom: 46px;
 }
+
+.sign-form button {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #9C27B0;
+    background: transparent;
+    border: none;
+    margin-top: 43px;
+    margin-left: 138px;
+}
+
+.sign-form button:focus {
+    outline: none;
+}
+
+.sign-form button:active {
+    border-radius: 3px;
+    color:  rgba(0, 0, 0, 0.87);
+}
