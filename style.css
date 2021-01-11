@@ -70,20 +70,20 @@ header {
     margin-left: 135px;
 }
 
-.sign-form .input-fields {
+.sign-form form .input-fields {
     margin-top: 24px;
     box-sizing: border-box;
     padding: 0 31px 0 26px;
 }
 
-.sign-form .input-fields img {
+.sign-form form .input-fields img {
     width: 24px;
     height: 24px;
     vertical-align: top;
     margin-right: 15px;
 }
 
-.sign-form .input-fields input {
+.sign-form form .input-fields input {
     height: 31px;
     width: 254px;
     font-family: Roboto;
@@ -97,16 +97,25 @@ header {
     border-bottom: 1px solid #D2D2D2;
 }
 
-.sign-form .input-fields input:focus {
+.sign-form form .input-fields input:focus {
     outline: none;
 }
 
-.sign-form .input-fields .input2 {
+.sign-form form .input-fields input::placeholder {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #999999;
+}
+
+.sign-form form .input-fields .input2 {
     margin-top: 55px;
     margin-bottom: 46px;
 }
 
-.sign-form button {
+.sign-form form button {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -119,11 +128,11 @@ header {
     margin-left: 138px;
 }
 
-.sign-form button:focus {
+.sign-form form button:focus {
     outline: none;
 }
 
-.sign-form button:active {
+.sign-form form button:active {
     border-radius: 3px;
     color:  rgba(0, 0, 0, 0.87);
 }
